@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3930CDC427EB5440000DE798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3930CDC327EB5440000DE798 /* AppDelegate.swift */; };
 		3930CDCD27EB5441000DE798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3930CDCC27EB5441000DE798 /* Assets.xcassets */; };
-		39414B9527EBA2D10057CB4B /* SwiftLintFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 39414B9427EBA2D10057CB4B /* SwiftLintFramework */; };
-		39414B9727EBA2D10057CB4B /* swiftlint in Frameworks */ = {isa = PBXBuildFile; productRef = 39414B9627EBA2D10057CB4B /* swiftlint */; };
 		3945C29A27EB627200414C42 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945C29927EB627200414C42 /* SplashViewController.swift */; };
 		3945C29C27EB62C100414C42 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945C29B27EB62C100414C42 /* Observable.swift */; };
 		3945C2A027EB630400414C42 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945C29F27EB630400414C42 /* Menu.swift */; };
@@ -67,8 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39414B9527EBA2D10057CB4B /* SwiftLintFramework in Frameworks */,
-				39414B9727EBA2D10057CB4B /* swiftlint in Frameworks */,
 				39D56CA427EB54CC00997F47 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,8 +248,6 @@
 			name = MVVM.USAGE;
 			packageProductDependencies = (
 				39D56CA327EB54CC00997F47 /* SnapKit */,
-				39414B9427EBA2D10057CB4B /* SwiftLintFramework */,
-				39414B9627EBA2D10057CB4B /* swiftlint */,
 			);
 			productName = MVVM.USAGE;
 			productReference = 3930CDC027EB543F000DE798 /* MVVM.USAGE.app */;
@@ -329,7 +323,6 @@
 			mainGroup = 3930CDB727EB543F000DE798;
 			packageReferences = (
 				39D56CA227EB54CC00997F47 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				39414B9327EBA2D10057CB4B /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = 3930CDC127EB543F000DE798 /* Products */;
 			projectDirPath = "";
@@ -724,14 +717,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		39414B9327EBA2D10057CB4B /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/SwiftLint";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		39D56CA227EB54CC00997F47 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -743,16 +728,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		39414B9427EBA2D10057CB4B /* SwiftLintFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 39414B9327EBA2D10057CB4B /* XCRemoteSwiftPackageReference "SwiftLint" */;
-			productName = SwiftLintFramework;
-		};
-		39414B9627EBA2D10057CB4B /* swiftlint */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 39414B9327EBA2D10057CB4B /* XCRemoteSwiftPackageReference "SwiftLint" */;
-			productName = swiftlint;
-		};
 		39D56CA327EB54CC00997F47 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 39D56CA227EB54CC00997F47 /* XCRemoteSwiftPackageReference "SnapKit" */;
